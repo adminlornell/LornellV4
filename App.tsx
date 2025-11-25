@@ -258,6 +258,18 @@ const HomeView: React.FC<{ onNavigate: (view: string, sectionId?: string) => voi
                 </motion.div>
             </section>
 
+            {/* Team Section */}
+            <section id="agents" className="py-32 bg-[#0f0f0f]">
+                <div className="container mx-auto px-6 text-center">
+                    <h2 className="text-4xl font-serif text-white mb-16">The Partners</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
+                        <TeamCard name="Todd Lornell" title="Principal & Founder" img="/images/todd.jpg" onClick={onShowToddBio} />
+                        <TeamCard name="Faisal Yaseen" title="Director of IT" img="/images/faisal.jpg" onClick={onShowFaisalBio} />
+                        <TeamCard name="Collin Mulcahy" title="President" img="/images/collin.jpg" onClick={onShowCollinBio} />
+                    </div>
+                </div>
+            </section>
+
             {/* Cinematic Slider Section */}
             <section id="featured" className="relative z-20">
                 <CinematicPropertySlider properties={featuredProperties} onSelectProperty={onSelectProperty} />
@@ -301,18 +313,6 @@ const HomeView: React.FC<{ onNavigate: (view: string, sectionId?: string) => voi
                 <ShowcaseBlock id="retail" image="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2670&auto=format&fit=crop" title="Retail" cta="View Opportunities" onAction={() => onNavigate('properties')} />
                 <ShowcaseBlock id="industrial" image="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2670&auto=format&fit=crop" title="Industrial" cta="Explore Assets" onAction={() => onNavigate('properties')} />
             </div>
-
-            {/* Team Section */}
-            <section id="agents" className="py-32 bg-[#0f0f0f]">
-                <div className="container mx-auto px-6 text-center">
-                    <h2 className="text-4xl font-serif text-white mb-16">The Partners</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
-                        <TeamCard name="Todd Lornell" title="Principal & Founder" img="/images/todd.jpg" onClick={onShowToddBio} />
-                        <TeamCard name="Faisal Yaseen" title="Director of IT" img="/images/faisal.jpg" onClick={onShowFaisalBio} />
-                        <TeamCard name="Collin Mulcahy" title="President" img="/images/collin.jpg" onClick={onShowCollinBio} />
-                    </div>
-                </div>
-            </section>
 
             {/* Contact / Footer */}
             <footer id="contact" className="bg-black text-white pt-32 pb-12 border-t border-white/10">

@@ -179,12 +179,9 @@ const HomeView: React.FC<{ onNavigate: (view: string, sectionId?: string) => voi
     const featuredProperties = PROPERTY_DATA.slice(0, 5); // Top 5 for slider
     const [heroIndex, setHeroIndex] = useState(0);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setHeroIndex((prev) => (prev + 1) % HERO_VIDEOS.length);
-        }, 12000);
-        return () => clearInterval(interval);
-    }, []);
+    const handleVideoEnd = () => {
+        setHeroIndex((prev) => (prev + 1) % HERO_VIDEOS.length);
+    };
 
     return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}>
@@ -196,9 +193,9 @@ const HomeView: React.FC<{ onNavigate: (view: string, sectionId?: string) => voi
                             key={heroIndex}
                             src={HERO_VIDEOS[heroIndex]}
                             autoPlay
-                            loop
                             muted
                             playsInline
+                            onEnded={handleVideoEnd}
                             className="absolute inset-0 w-full h-full object-cover"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}

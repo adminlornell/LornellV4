@@ -176,7 +176,7 @@ const FooterLogo = () => {
 };
 
 const HomeView: React.FC<{ onNavigate: (view: string, sectionId?: string) => void; onSelectProperty: (p: Property) => void; onOpenAgent: () => void; onShowToddBio: () => void; onShowCollinBio: () => void; onShowFaisalBio: () => void }> = ({ onNavigate, onSelectProperty, onOpenAgent, onShowToddBio, onShowCollinBio, onShowFaisalBio }) => {
-    const featuredProperties = PROPERTY_DATA.slice(0, 5); // Top 5 for slider
+    const featuredProperties = PROPERTY_DATA.filter(p => [1, 2, 3, 7, 8].includes(p.id)); // Featured assets: Spencer Retail, Leicester Mill, Burrillville Industrial, Webster Riverfront, Cambridge Storefront
     const [heroIndex, setHeroIndex] = useState(0);
 
     const handleVideoEnd = () => {

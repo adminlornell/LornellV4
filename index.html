@@ -46,6 +46,14 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #DC2626; 
       }
+      /* Hide scrollbar for thumbnail strip */
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
       /* Leaflet Dark Mode Overrides */
       .leaflet-popup-content-wrapper, .leaflet-popup-tip {
         background: #1a1a1a;

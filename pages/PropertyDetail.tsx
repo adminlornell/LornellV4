@@ -8,6 +8,7 @@ import { MapComponent } from '../components/MapComponent';
 import { generatePropertyInsights } from '../services/geminiService'; 
 import { SEO } from '../components/SEO';
 import { generatePropertySchema } from '../utils/seoHelpers';
+import { ImageCarouselModal } from '../components/ImageCarouselModal';
 
 interface PropertyDetailProps {
     property: Property;
@@ -18,6 +19,7 @@ interface PropertyDetailProps {
 
 export const PropertyDetail: React.FC<PropertyDetailProps> = ({ property, onBack, allProperties, onSelectProperty }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isImageModalOpen, setIsImageModalOpen] = useState(false);
     const [aiInsights, setAiInsights] = useState<string | null>(null);
     const [isLoadingAi, setIsLoadingAi] = useState(false);
 
@@ -50,13 +52,41 @@ export const PropertyDetail: React.FC<PropertyDetailProps> = ({ property, onBack
             />
             <InquiryModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} propertyAddress={property.address} />
             
-            {/* HERO */}
-            <div className="relative h-screen w-full overflow-hidden">
-                <img src={property.img} alt={property.address} className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] via-black/20 to-black/40"></div>
+            {/* Image Carousel Modal */}
+            {(() => {
+                const allImages = property.images && property.images.length > 0 
+                    ? [property.img, ...property.images.filter(img => img !== property.img)]
+                    : [property.img];
+                return (
+                    <ImageCarouselModal
+                        images={allImages}
+                        alt={property.address}
+                        isOpen={isImageModalOpen}
+                        onClose={() => setIsImageModalOpen(false)}
+                        initialIndex={0}
+                    />
+                );
+            })()}
+            
+            {/* HERO WITH CLICKABLE MAIN IMAGE */}
+            <div className="relative h-screen w-full overflow-hidden group">
+                <img 
+                    src={property.img} 
+                    alt={property.address} 
+                    className="w-full h-full object-cover cursor-pointer transition-transform duration-300 group-hover:scale-105" 
+                    onClick={() => setIsImageModalOpen(true)}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] via-black/20 to-black/40 pointer-events-none"></div>
                 
-                <div className="absolute bottom-12 left-0 right-0 z-10 container mx-auto px-6 md:px-12">
-                    <div className="flex flex-wrap items-center gap-4 mb-6">
+                {/* Click indicator */}
+                {(property.images && property.images.length > 0) && (
+                    <div className="absolute top-4 right-4 z-20 bg-black/50 backdrop-blur-sm text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full border border-white/20 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                        Click to view {property.images.length + 1} photos
+                    </div>
+                )}
+                
+                <div className="absolute bottom-12 left-0 right-0 z-10 container mx-auto px-6 md:px-12 pointer-events-none">
+                    <div className="flex flex-wrap items-center gap-4 mb-6 pointer-events-auto">
                         <div className={`text-white text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 ${property.status === 'For Lease' ? 'bg-red-600' : 'bg-blue-600'}`}>{property.status}</div>
                         <div className="text-white text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 border border-white/30">{property.type}</div>
                     </div>
@@ -64,8 +94,15 @@ export const PropertyDetail: React.FC<PropertyDetailProps> = ({ property, onBack
                     <p className="text-lg md:text-2xl text-gray-300 font-light tracking-[0.15em] uppercase">{property.city}, {property.state} {property.zip} <span className="text-red-500 mx-2">|</span> {property.price}</p>
                 </div>
 
-                <div className="absolute top-32 left-6 md:left-12 z-20">
-                    <button onClick={onBack} className="group flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-white hover:text-red-500 transition-colors backdrop-blur-md bg-black/20 px-4 py-2 rounded-full border border-white/10 hover:border-red-500/50">
+                <div className="absolute top-32 left-6 md:left-12 z-[100] pointer-events-auto">
+                    <button 
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            e.preventDefault();
+                            onBack();
+                        }} 
+                        className="group flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-white hover:text-red-500 transition-colors backdrop-blur-md bg-black/20 px-4 py-2 rounded-full border border-white/10 hover:border-red-500/50 pointer-events-auto"
+                    >
                         <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" /> Back to Portfolio
                     </button>
                 </div>

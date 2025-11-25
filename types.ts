@@ -90,6 +90,7 @@ export interface Property {
   price: string;
   size: string;
   img: string;
+  images?: string[]; // Array of additional images for carousel
   description?: string;
   headline?: string;
   details?: PropertyDetails;

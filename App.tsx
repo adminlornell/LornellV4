@@ -27,14 +27,13 @@ import video1 from './downloaded-videos/LVS1.mp4';
 import video2 from './downloaded-videos/LVS2.mp4';
 import video3 from './downloaded-videos/LVS3.mp4';
 import video4 from './downloaded-videos/LVS4.mp4';
-import video5 from './downloaded-videos/LVS5.mp4';
 import video6 from './downloaded-videos/LVS6.mp4';
 import video7 from './downloaded-videos/LVS7.mp4';
 import video8 from './downloaded-videos/LVS8.mp4';
 
 // --- Home Page Components ---
 
-const HERO_VIDEOS = [video1, video2, video3, video4, video5, video6, video7, video8];
+const HERO_VIDEOS = [video1, video2, video3, video4, video6, video7, video8];
 
 const CinematicPropertySlider = ({ properties, onSelectProperty }: { properties: Property[]; onSelectProperty: (p: Property) => void }) => {
     const [currentIndex, setCurrentIndex] = useState(0);

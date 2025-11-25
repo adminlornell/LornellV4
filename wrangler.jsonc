@@ -1,6 +1,7 @@
 {
   // Cloudflare Pages configuration for Vite React app
   "name": "lornellv4",
-  "compatibility_date": "2025-11-25"
+  "compatibility_date": "2025-11-25",
+  "pages_build_output_dir": "dist"
 }
 

@@ -1,58 +1,6 @@
 {
   // Cloudflare Pages configuration for Vite React app
   "name": "lornellv4",
-  "compatibility_date": "2025-11-25",
-  "pages_build_output_dir": "dist",
-  
-  // Build configuration
-  "build": {
-    "command": "npm run build",
-    "cwd": ".",
-    "watch_dir": "."
-  },
-
-  // Environment variables (set these in Cloudflare dashboard or via CLI)
-  "vars": {
-    // Add your environment variables here
-    // "GEMINI_API_KEY": "your-api-key-here"
-  },
-
-  // Route configuration for SPA
-  "routes": [
-    {
-      "pattern": "/*",
-      "file": "index.html"
-    }
-  ],
-
-  // Headers for better performance and security
-  "headers": [
-    {
-      "source": "/*",
-      "headers": [
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "DENY"
-        },
-        {
-          "key": "X-XSS-Protection",
-          "value": "1; mode=block"
-        }
-      ]
-    },
-    {
-      "source": "/assets/*",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    }
-  ]
+  "compatibility_date": "2025-11-25"
 }
 

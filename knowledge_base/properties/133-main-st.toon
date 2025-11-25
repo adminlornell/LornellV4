@@ -1,0 +1,38 @@
+address: 133 Main St
+location:
+  county: Worcester
+  coordinates: 42.2453153, -71.9936979
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 12
+size_sf: 53103
+type: Retail
+status: For Lease
+description: 133 Main St freestanding retail. Class C, building rating 3. Existing structure built 1962.
+building:
+  class: C
+  rating: 3
+  status: Existing
+  year_built: 1962
+  stories: 1
+  land_area_acres: 5.46
+  construction_type: Masonry
+  collateral_type: Single
+space_availability:
+  total_available_sf: 8056
+  direct_available_sf: 8056
+  direct_vacant_sf: 8056
+  max_contiguous_sf: 8056
+  smallest_available_sf: 8056
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: TC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

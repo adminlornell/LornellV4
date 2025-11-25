@@ -1,0 +1,32 @@
+address: 997 Main St
+location:
+  county: Worcester
+  coordinates: 42.2459734, -71.9052247
+  market: Worcester, MA
+  submarket: Outlying Worcester County
+  cluster: Outlying Worcester County
+price_per_sf: null
+size_sf: 3504
+type: Multifamily
+status: For Sale
+description: 997 Main St apartments. Class B, building rating 3. Existing structure built 1950.
+building:
+  class: B
+  rating: 3
+  status: Existing
+  year_built: 1950
+  stories: 3
+  land_area_acres: 0.29
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 0
+  zoning: R2
+  scale: Independent
+space_availability:
+  direct_vacant_sf: 0
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

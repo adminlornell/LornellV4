@@ -1,0 +1,37 @@
+address: 21-69 S Main St
+location:
+  county: Worcester
+  coordinates: 42.2412670, -71.8661787
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 3500000
+size_sf: 74745
+type: Flex
+status: For Sale
+description: 21-69 S Main St light distribution. Class C, building rating 2. Existing structure built 1880.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1880
+  stories: 3
+  land_area_acres: 3.74
+  collateral_type: Single
+space_availability:
+  total_available_sf: 50000
+  direct_available_sf: 50000
+  direct_vacant_sf: 74745
+  max_contiguous_sf: 20000
+  min_divisible_sf: 300
+features:
+  elevators: 0
+  drive_in_doors: 2
+  tenancy: Multi
+  zoning: B
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

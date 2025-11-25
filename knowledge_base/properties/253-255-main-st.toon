@@ -1,0 +1,38 @@
+address: 253-255 Main St
+location:
+  county: Worcester
+  coordinates: 42.0495471, -71.8824892
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 6.00
+size_sf: 19370
+type: Office
+status: For Lease
+description: 253-255 Main St loft/creative space. Class C, building rating 2. Existing structure built 1900.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1900
+  stories: 3
+  land_area_acres: 0.17
+  construction_type: Masonry
+  collateral_type: Single
+space_availability:
+  total_available_sf: 8575
+  direct_available_sf: 8575
+  direct_vacant_sf: 8575
+  max_contiguous_sf: 4000
+  smallest_available_sf: 500
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: GB-4 W
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

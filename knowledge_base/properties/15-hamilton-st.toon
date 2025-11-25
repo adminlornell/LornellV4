@@ -1,0 +1,35 @@
+address: 15 Hamilton St
+location:
+  county: Worcester
+  coordinates: 42.0765307, -72.0348137
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 12
+size_sf: 7757
+type: Retail
+status: For Lease
+description: 15 Hamilton St storefront. Class C, building rating 3. Existing structure built 1900.
+building:
+  class: C
+  rating: 3
+  status: Existing
+  year_built: 1900
+  stories: 2
+  land_area_acres: 0.12
+  collateral_type: Single
+space_availability:
+  total_available_sf: 1600
+  direct_available_sf: 1600
+  direct_vacant_sf: 1600
+  smallest_available_sf: 800
+features:
+  elevators: 0
+  tenancy: Multi
+  zoning: CC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

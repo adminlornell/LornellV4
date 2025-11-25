@@ -1,0 +1,32 @@
+address: 2323-2335 Massachusetts Ave
+location:
+  county: Middlesex
+  coordinates: 42.3959770, -71.1283220
+  market: Boston, MA
+  submarket: W Cambridge/Alewife
+  cluster: Cambridge
+price_per_sf: null
+size_sf: 12512
+type: Retail
+status: For Lease
+description: 2323-2335 Massachusetts Ave retail space. Class B, built 1960, available for lease.
+building:
+  class: B
+  rating: 2
+  status: Existing
+  year_built: 1960
+  stories: 1
+  land_area_sf: 12632
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: BA2
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

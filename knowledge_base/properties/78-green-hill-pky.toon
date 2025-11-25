@@ -1,0 +1,28 @@
+address: 78 Green Hill Pky
+location:
+  county: Worcester
+  coordinates: 42.2806120, -71.7915180
+  market: Worcester, MA
+  submarket: Brittan Square
+  cluster: Outlying Worcester County
+price_per_sf: null
+size_sf: 4437
+type: Multifamily
+status: For Sale
+description: 78 Green Hill Pky multifamily. Existing structure built 1910.
+building:
+  status: Existing
+  year_built: 1910
+  stories: 3
+  land_area_acres: 0.13
+  construction_type: Wood Frame
+  collateral_type: Single
+features:
+  elevators: 0
+  zoning: RG-5
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

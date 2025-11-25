@@ -1,0 +1,8 @@
+{
+  "name": "Lornell Real Estate",
+  "description": "A premium, cinematic real estate portfolio application featuring AI-powered property insights.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}

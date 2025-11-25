@@ -1,0 +1,35 @@
+address: 12 Crane St
+location:
+  county: Worcester
+  coordinates: 42.0804910, -72.0351780
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 15
+size_sf: 26400
+type: Retail
+status: For Lease
+description: 12 Crane St restaurant retail. Class B, building rating 3. Existing structure built 1930.
+building:
+  class: B
+  rating: 3
+  status: Existing
+  year_built: 1930
+  stories: 3
+  land_area_acres: 0.68
+  collateral_type: Single
+space_availability:
+  total_available_sf: 2500
+  direct_available_sf: 2500
+  direct_vacant_sf: 2500
+  min_divisible_sf: 1500
+features:
+  elevators: 0
+  tenancy: Multi
+  zoning: CC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

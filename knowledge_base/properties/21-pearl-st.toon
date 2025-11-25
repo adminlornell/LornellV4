@@ -1,0 +1,36 @@
+address: 21 Pearl St
+location:
+  county: Worcester
+  coordinates: 42.0583459, -71.8794360
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 6
+size_sf: 58000
+type: Industrial
+status: For Lease
+description: 21 Pearl St warehouse. Class C, building rating 2. Existing structure built 1924.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1924
+  stories: 3
+  land_area_acres: 2.18
+  collateral_type: Single
+space_availability:
+  total_available_sf: 58000
+  direct_available_sf: 58000
+  direct_vacant_sf: 58000
+  max_contiguous_sf: 58000
+  min_divisible_sf: 8000
+features:
+  elevators: 0
+  tenancy: Multi
+  zoning: IND
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

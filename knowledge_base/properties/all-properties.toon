@@ -1,0 +1,654 @@
+address: 1155 Victory Hwy
+location:
+  county: Providence
+  coordinates: 41.9569016, -71.6475405
+  market: Providence, RI
+  submarket: Burrillville/Glocester
+  cluster: Northern
+price_per_sf: 1800000
+size_sf: 10000
+type: Industrial
+status: For Sale
+description: 1155 Victory Hwy warehouse. Class C, building rating 3. Existing structure built 1987.
+building:
+  class: C
+  rating: 3
+  status: Existing
+  year_built: 1987
+  stories: 1
+  land_area_acres: 0.45
+  construction_type: Metal
+  collateral_type: Single
+features:
+  elevators: 0
+  drive_in_doors: 1
+  tenancy: Single
+  zoning: GC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 12 Crane St
+location:
+  county: Worcester
+  coordinates: 42.0804910, -72.0351780
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 15
+size_sf: 26400
+type: Retail
+status: For Lease
+description: 12 Crane St restaurant retail. Class B, building rating 3. Existing structure built 1930.
+building:
+  class: B
+  rating: 3
+  status: Existing
+  year_built: 1930
+  stories: 3
+  land_area_acres: 0.68
+  collateral_type: Single
+space_availability:
+  total_available_sf: 2500
+  direct_available_sf: 2500
+  direct_vacant_sf: 2500
+  min_divisible_sf: 1500
+features:
+  elevators: 0
+  tenancy: Multi
+  zoning: CC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 133 Main St
+location:
+  county: Worcester
+  coordinates: 42.2453153, -71.9936979
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 12
+size_sf: 53103
+type: Retail
+status: For Lease
+description: 133 Main St freestanding retail. Class C, building rating 3. Existing structure built 1962.
+building:
+  class: C
+  rating: 3
+  status: Existing
+  year_built: 1962
+  stories: 1
+  land_area_acres: 5.46
+  construction_type: Masonry
+  collateral_type: Single
+space_availability:
+  total_available_sf: 8056
+  direct_available_sf: 8056
+  direct_vacant_sf: 8056
+  max_contiguous_sf: 8056
+  smallest_available_sf: 8056
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: TC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 15 Crane St
+location:
+  county: Worcester
+  coordinates: 42.0802186, -72.0353897
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 20
+size_sf: 7344
+type: Retail
+status: For Lease
+description: 15 Crane St storefront retail/residential. Class C, building rating 3. Existing structure built 1888.
+building:
+  class: C
+  rating: 3
+  status: Existing
+  year_built: 1888
+  stories: 2
+  land_area_acres: 0.093
+  collateral_type: Single
+space_availability:
+  total_available_sf: 400
+  direct_available_sf: 400
+  direct_vacant_sf: 400
+features:
+  elevators: 0
+  tenancy: Multi
+  zoning: GC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 15 Hamilton St
+location:
+  county: Worcester
+  coordinates: 42.0765307, -72.0348137
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 12
+size_sf: 7757
+type: Retail
+status: For Lease
+description: 15 Hamilton St storefront. Class C, building rating 3. Existing structure built 1900.
+building:
+  class: C
+  rating: 3
+  status: Existing
+  year_built: 1900
+  stories: 2
+  land_area_acres: 0.12
+  collateral_type: Single
+space_availability:
+  total_available_sf: 1600
+  direct_available_sf: 1600
+  direct_vacant_sf: 1600
+  smallest_available_sf: 800
+features:
+  elevators: 0
+  tenancy: Multi
+  zoning: CC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 21-69 S Main St
+location:
+  county: Worcester
+  coordinates: 42.2412670, -71.8661787
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 3500000
+size_sf: 74745
+type: Flex
+status: For Sale
+description: 21-69 S Main St light distribution. Class C, building rating 2. Existing structure built 1880.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1880
+  stories: 3
+  land_area_acres: 3.74
+  collateral_type: Single
+space_availability:
+  total_available_sf: 50000
+  direct_available_sf: 50000
+  direct_vacant_sf: 74745
+  max_contiguous_sf: 20000
+  min_divisible_sf: 300
+features:
+  elevators: 0
+  drive_in_doors: 2
+  tenancy: Multi
+  zoning: B
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 21 Pearl St
+location:
+  county: Worcester
+  coordinates: 42.0583459, -71.8794360
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 6
+size_sf: 58000
+type: Industrial
+status: For Lease
+description: 21 Pearl St warehouse. Class C, building rating 2. Existing structure built 1924.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1924
+  stories: 3
+  land_area_acres: 2.18
+  collateral_type: Single
+space_availability:
+  total_available_sf: 58000
+  direct_available_sf: 58000
+  direct_vacant_sf: 58000
+  max_contiguous_sf: 58000
+  min_divisible_sf: 8000
+features:
+  elevators: 0
+  tenancy: Multi
+  zoning: IND
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 2323-2335 Massachusetts Ave
+location:
+  county: Middlesex
+  coordinates: 42.3959770, -71.1283220
+  market: Boston, MA
+  submarket: W Cambridge/Alewife
+  cluster: Cambridge
+price_per_sf: null
+size_sf: 12512
+type: Retail
+status: For Lease
+description: 2323-2335 Massachusetts Ave retail space. Class B, built 1960, available for lease.
+building:
+  class: B
+  rating: 2
+  status: Existing
+  year_built: 1960
+  stories: 1
+  land_area_sf: 12632
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: BA2
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 253-255 Main St
+location:
+  county: Worcester
+  coordinates: 42.0495471, -71.8824892
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 6.00
+size_sf: 19370
+type: Office
+status: For Lease
+description: 253-255 Main St loft/creative space. Class C, building rating 2. Existing structure built 1900.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1900
+  stories: 3
+  land_area_acres: 0.17
+  construction_type: Masonry
+  collateral_type: Single
+space_availability:
+  total_available_sf: 8575
+  direct_available_sf: 8575
+  direct_vacant_sf: 8575
+  max_contiguous_sf: 4000
+  smallest_available_sf: 500
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: GB-4 W
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 300 Main St
+location:
+  county: Worcester
+  coordinates: 42.0753680, -72.0340350
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 8.18
+size_sf: 4135
+type: Retail
+status: For Lease
+description: 300 Main St storefront retail/office. Class C, building rating 2. Existing structure built 1900.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1900
+  stories: 3
+  land_area_acres: 0.04
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: CC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 368 Main St
+location:
+  county: Worcester
+  coordinates: 42.0762818, -72.0350693
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 12
+size_sf: 8822
+type: Office
+status: For Lease
+description: 368 Main St loft/creative space. Class B, building rating 2. Existing structure built 1841.
+building:
+  class: B
+  rating: 2
+  status: Existing
+  year_built: 1841
+  stories: 2
+  land_area_acres: 0.12
+  collateral_type: Single
+features:
+  elevators: 0
+  tenancy: Multi
+  zoning: CC
+  scale: Independent
+space_availability:
+  total_available_sf: 4100
+  direct_available_sf: 4100
+  direct_vacant_sf: 4100
+  max_contiguous_sf: 2500
+  smallest_available_sf: 800
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 415 Main St
+location:
+  county: Worcester
+  coordinates: 42.2636132, -71.8018343
+  market: Worcester, MA
+  submarket: Worcester Metro
+  cluster: Worcester
+price_per_sf: 219000
+size_sf: 27012
+type: Office
+status: For Sale
+description: 415 Main St medical. Class C, building rating 2. Existing structure built 1900.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1900
+  stories: 4
+  land_area_acres: 0.12
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 4
+  tenancy: Multi
+  zoning: BG-6
+  scale: Independent
+space_availability:
+  direct_vacant_sf: 3495
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 606 Southbridge St
+location:
+  county: Worcester
+  coordinates: 42.1890740, -71.8494620
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 1200000
+size_sf: 3242
+type: Retail
+status: For Sale
+description: 606 Southbridge St auto repair. Class C, building rating 2. Existing structure built 1947.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1947
+  stories: 2
+  land_area_acres: 0.78
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 0
+  drive_in_doors: 1
+  tenancy: Single
+  zoning: HB
+  scale: Independent
+space_availability:
+  total_available_sf: 3242
+  direct_available_sf: 3242
+  direct_vacant_sf: 3242
+  max_contiguous_sf: 3242
+  max_floor_contiguous_sf: 3242
+  smallest_available_sf: 3242
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+
+address: 7 Sutton Ave
+location:
+  county: Worcester
+  coordinates: 42.1168222, -71.8640423
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 11.76
+size_sf: 5446
+type: Retail
+status: For Lease
+description: 7 Sutton Ave storefront retail. Class C, building rating 2. Existing structure built 1900.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1900
+  stories: 1
+  construction_type: Wood Frame
+  collateral_type: Multiple
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: GB
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 74 Green Hill Pky
+location:
+  county: Worcester
+  coordinates: 42.2806803, -71.7919072
+  market: Worcester, MA
+  submarket: Brittan Square
+  cluster: Outlying Worcester County
+price_per_sf: null
+size_sf: 3605
+type: Multifamily
+status: For Sale
+description: 74 Green Hill Pky multifamily. Existing structure built 1890.
+building:
+  status: Existing
+  year_built: 1890
+  stories: 3
+  land_area_acres: 0.17
+  collateral_type: Single
+features:
+  elevators: 0
+  zoning: RG-5
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634 
+
+address: 78 Green Hill Pky
+location:
+  county: Worcester
+  coordinates: 42.2806120, -71.7915180
+  market: Worcester, MA
+  submarket: Brittan Square
+  cluster: Outlying Worcester County
+price_per_sf: null
+size_sf: 4437
+type: Multifamily
+status: For Sale
+description: 78 Green Hill Pky multifamily. Existing structure built 1910.
+building:
+  status: Existing
+  year_built: 1910
+  stories: 3
+  land_area_acres: 0.13
+  construction_type: Wood Frame
+  collateral_type: Single
+features:
+  elevators: 0
+  zoning: RG-5
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 82 Green Hill Pky
+location:
+  county: Worcester
+  coordinates: 42.2805584, -71.7913209
+  market: Worcester, MA
+  submarket: Brittan Square
+  cluster: Outlying Worcester County
+price_per_sf: null
+size_sf: 4782
+type: Multifamily
+status: For Sale
+description: 82 Green Hill Pky multifamily. Existing structure built 1920.
+building:
+  status: Existing
+  year_built: 1920
+  stories: 3
+  land_area_acres: 0.16
+  construction_type: Wood Frame
+  collateral_type: Single
+features:
+  elevators: 0
+  zoning: RG-5
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 993 Main St
+location:
+  county: Worcester
+  coordinates: 42.2459851, -71.9049834
+  market: Worcester, MA
+  submarket: Outlying Worcester County
+  cluster: Outlying Worcester County
+price_per_sf: 11.64
+size_sf: 4404
+type: Multifamily
+status: For Sale
+description: 993 Main St apartments. Class C, building rating 2. Existing structure built 1822.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1822
+  stories: 3
+  land_area_acres: 1.19
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 0
+  zoning: R2
+  scale: Independent
+space_availability:
+  direct_vacant_sf: 0
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+
+address: 997 Main St
+location:
+  county: Worcester
+  coordinates: 42.2459734, -71.9052247
+  market: Worcester, MA
+  submarket: Outlying Worcester County
+  cluster: Outlying Worcester County
+price_per_sf: null
+size_sf: 3504
+type: Multifamily
+status: For Sale
+description: 997 Main St apartments. Class B, building rating 3. Existing structure built 1950.
+building:
+  class: B
+  rating: 3
+  status: Existing
+  year_built: 1950
+  stories: 3
+  land_area_acres: 0.29
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 0
+  zoning: R2
+  scale: Independent
+space_availability:
+  direct_vacant_sf: 0
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

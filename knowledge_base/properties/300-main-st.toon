@@ -1,0 +1,32 @@
+address: 300 Main St
+location:
+  county: Worcester
+  coordinates: 42.0753680, -72.0340350
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 8.18
+size_sf: 4135
+type: Retail
+status: For Lease
+description: 300 Main St storefront retail/office. Class C, building rating 2. Existing structure built 1900.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1900
+  stories: 3
+  land_area_acres: 0.04
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: CC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

@@ -1,0 +1,31 @@
+address: 7 Sutton Ave
+location:
+  county: Worcester
+  coordinates: 42.1168222, -71.8640423
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 11.76
+size_sf: 5446
+type: Retail
+status: For Lease
+description: 7 Sutton Ave storefront retail. Class C, building rating 2. Existing structure built 1900.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1900
+  stories: 1
+  construction_type: Wood Frame
+  collateral_type: Multiple
+features:
+  elevators: 0
+  drive_in_doors: None
+  tenancy: Multi
+  zoning: GB
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634

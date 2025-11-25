@@ -1,0 +1,40 @@
+address: 606 Southbridge St
+location:
+  county: Worcester
+  coordinates: 42.1890740, -71.8494620
+  market: Worcester, MA
+  submarket: Outlying Worcester
+  cluster: Worcester
+price_per_sf: 1200000
+size_sf: 3242
+type: Retail
+status: For Sale
+description: 606 Southbridge St auto repair. Class C, building rating 2. Existing structure built 1947.
+building:
+  class: C
+  rating: 2
+  status: Existing
+  year_built: 1947
+  stories: 2
+  land_area_acres: 0.78
+  construction_type: Masonry
+  collateral_type: Single
+features:
+  elevators: 0
+  drive_in_doors: 1
+  tenancy: Single
+  zoning: HB
+  scale: Independent
+space_availability:
+  total_available_sf: 3242
+  direct_available_sf: 3242
+  direct_vacant_sf: 3242
+  max_contiguous_sf: 3242
+  max_floor_contiguous_sf: 3242
+  smallest_available_sf: 3242
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
+

@@ -1,0 +1,32 @@
+address: 1155 Victory Hwy
+location:
+  county: Providence
+  coordinates: 41.9569016, -71.6475405
+  market: Providence, RI
+  submarket: Burrillville/Glocester
+  cluster: Northern
+price_per_sf: 1800000
+size_sf: 10000
+type: Industrial
+status: For Sale
+description: 1155 Victory Hwy warehouse. Class C, building rating 3. Existing structure built 1987.
+building:
+  class: C
+  rating: 3
+  status: Existing
+  year_built: 1987
+  stories: 1
+  land_area_acres: 0.45
+  construction_type: Metal
+  collateral_type: Single
+features:
+  elevators: 0
+  drive_in_doors: 1
+  tenancy: Single
+  zoning: GC
+  scale: Independent
+contacts:
+  leasing:
+    company: Lornell Real Estate
+    contact: Collin Mulcahy
+    phone: 7742303634
